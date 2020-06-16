@@ -1,0 +1,81 @@
+
+
+  fieldset {
+    background-color:rgba(107, 56, 224, 0.5);
+    margin: 50px 0px;
+    padding: 20px;
+    width: 500px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    text-align: center;
+    transition: all 2s ease;
+  }
+#errorMessage{
+  background-color: red;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all ease-in 0.5s;
+}
+.contactForm {
+    background: linear-gradient(rgba(29, 28, 28, 0.5), rgba(29, 28, 28, 0.5)),
+      url(../Images/contact__page.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 130px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+  }
+  textarea{
+      height: 100px;
+  }
+  
+  input[type="submit"] {
+    background-color: rgba(56, 133, 209, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  #emailAdd {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .containerHeader {
+    margin-top: 200px;
+    background-color: grey;
+  }
+
+button{
+    background-color: $maincolor;
+    color: white;
+    width: 80px;
+    height: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    transition: all ease-in-out 0.5s;
+    background-color: $secondarycolor;
+    color: $font-color;
+}
+  

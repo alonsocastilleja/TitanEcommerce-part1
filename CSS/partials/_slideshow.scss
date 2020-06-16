@@ -1,0 +1,73 @@
+
+/*
+Slide Show container styling  
+*/
+
+//slideshow button styling
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.previous:hover,
+.next:hover {
+  color: white;
+  background-color: rgba(126, 115, 115, 0.8);
+}
+
+
+// Slideshow Styling
+.mainSlides {
+  display: none;
+  width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+img {
+  vertical-align: middle;
+}
+.slideshow__container {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  padding: 100px;
+
+  &--background {
+    height: 100%;
+    width: 100%;
+    margin: 10px 0px;
+  }
+}
+
+
+// Home Content
+
+
+.products__row--items{
+  height: 480px;
+  width: 100%;
+  margin: 50px 0px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+}
+.products__row--caption{
+    background-color: rgb(85, 180, 235);
+    width: 100%;
+    text-align: center; 
+    padding: 40px;
+}

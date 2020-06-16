@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/index.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Welcome to the Ecommerce store that sells home automation products!!">
+    <meta name="keywords" content="Home Automation">
+    <title>Titan Products</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="subcontainer">
+            <div class="subcontainer__logo">
+                <!--This is the space for the store logo-->
+                <a href="index.html"><img src="Images/mainlogo.png"
+                        alt="This represents the home automation products we offer" height="70"></a>
+            </div>
+            <div class="subcontainer__title">
+                <h1 class="headings__styling--h1">Titan Products</h1>
+            </div>
+            <nav class="navBar">
+
+                <!--This is the space for the navigation items-->
+                <ul class="container__nav--items">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="slideshow-container">
+        <div class="mainSlides">
+            <img src="Images/futurehome.jpg" height="650" width=100% alt="A visual representation of the ideal home">
+            <h1 class="headings__styling--h1">Providing the latest home automation products!</h1>
+        </div>
+
+        <div class="mainSlides">
+            <img src="Images/products_hero.jpg" height="650" width=100% alt="An example of a home automation product">
+            <h1 class="headings__styling--h1">Gain more control over your home!</h1>
+        </div>
+
+        <div class="mainSlides">
+            <img src="Images/contact_hero.jpg" height="650" width=100% alt="An image of a computer that is glowing">
+            <h1 class="headings__styling--h1">Contact Us if you have any questions.</h1>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)" style="color: white;">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)" style="color: white;">&#10095;</a>
+    </section>
+
+    <section class="products__row--items">
+        <img src="Images/Locks/doorlockbg.jpg" width=50% alt="Visual representation of how doorlocks work">
+        <div class="products__row--caption">
+            <h1 class="section__heading">Smart Doorlocks!</h1>
+            <p class="section__description">Our latest products in the smart locks are
+                designed to keep you monitored on activity inside your home.
+            </p>
+        </div>
+    </section>
+
+    <section class="products__row--items">
+        <div class="products__row--caption">
+            <h1 class="section__heading">Smart Thermostats</h1>
+            <p class="section__description">Our latest thermostat
+                products are designed to be controlled through the use of mobile device.
+            </p>
+        </div>
+        <img src="Images/Thermostats/ecobee.jpg" width=50% alt="Ecobee thermostat">
+
+    </section>
+
+    <section class="products__row--items">
+        <img src="Images/Cameras/ringcam.jpg" width=50% alt="Ring door camera">
+        <div class="products__row--caption">
+            <h1 class="section__heading">Smart Cameras</h1>
+            <p class="section__description">Our latest products in the smart locks are
+                designed to keep you monitored on activity inside your home.
+            </p>
+        </div>
+    </section>
+
+    <section class="products__row--items">
+
+        <div class="products__row--caption">
+            <h1 class="section__heading">Smart Sensors</h1>
+            <p class="section__description">
+                Our latest motion detector products are designed to keep you secure in
+                the your by ensuring any threats are immediately notified to your phone!
+            </p>
+        </div>
+        <img src="Images/Sensors/globe.jpg" width=50%  alt="Image of globe electric sensor">
+    </section>
+
+    <footer class="footer__container">
+        <div class="subcontainer__logo">
+            <!--This is the space for the store logo-->
+
+            <div class="subcontainer__title">
+                <h1 class="headings__styling--h1">Titan Products</h1>
+                <ul class="footer__box--items">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="icons__container">
+            <div class="subcontainer__logo">
+                <a href="index.html"><img src="Images/mainlogo.png"
+                        alt="This represents the home automation products we offer" width="70" height="70"></a>
+            </div>
+
+            <div class="icons__container-heading">
+                <p>&copy; Alonso Castilleja Copyright 2020. All Rights Reserved. </p>
+            </div>
+            <div class="icons__container-socialMediaIcons">
+                <a href="https://www.facebook.com">
+                    <img alt="Facebook logo" src="https://image.flaticon.com/icons/svg/1384/1384005.svg" width="30"
+                        height="30">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img alt="Instagram logo"
+                        src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Instagram_svg-512.png"
+                        width="30" height="30">
+                </a>
+                <a href="https://twitter.com">
+                    <!--Link to a twitter page-->
+                    <img alt="Twitter logo" src="https://image.flaticon.com/icons/svg/254/254406.svg" height="30"
+                        width="30">
+                </a>
+            </div>
+
+        </div>
+
+        <div class="contact__section">
+            <label for="commFooter" id="commentHeading">Questions/Comments</label>
+            <textarea id="commFooter" name="comments" placeholder="Give us any questions or comments.."></textarea>
+            <button id="btnFooter" type="submit">Submit</button>
+        </div>
+    </footer>
+
+
+
+
+    <script src="JS/slider.js"></script>
+</body>
+
+
+
+</html>

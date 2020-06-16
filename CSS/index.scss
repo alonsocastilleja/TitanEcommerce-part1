@@ -1,0 +1,58 @@
+@import "partials/products.scss";
+@import "partials/navigationBar.scss";
+@import "partials/footer.scss";
+@import "partials/slideshow.scss";
+@import "partials/media-contact.scss";
+@import "partials/contactForm.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+
+
+
+$maincolor: #2f2fa2;
+$secondarycolor: rgba(255, 63, 49, 0.8);
+$thirdcolor: rgb(85, 180, 235);
+$font-color: rgb(0, 27, 179);
+$font-h1: 27px;
+$font-h2: 20px;
+$font-h3: 13px;
+
+
+
+// Universal selector styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.7em;
+  height: 100%;
+}
+
+.headings__styling--h1 {
+  color: $font-color;
+  font-size: $font-h1;
+  font-family:'Roboto Mono', monospace;
+  text-align: center;
+}
+.headings__styling--h2 {
+  color: $font-color;
+  font-size: $font-h2;
+}
+footer .footer__box--items .current a,
+nav .container__nav--items .current a{
+  color: $maincolor;
+}
+footer .footer__box--items a:hover,
+nav .container__nav--items a:hover{
+  color: $secondarycolor;
+}

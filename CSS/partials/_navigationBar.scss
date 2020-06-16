@@ -1,0 +1,63 @@
+
+
+
+/*Top logo container styling */
+header {
+  width: 100%;
+  margin-bottom: 20px;  
+  position: fixed;
+  background-color: rgba(226, 226, 226, 0.95);
+} 
+
+
+.heading__container{
+  text-align: center;
+}
+
+/* Navigation Bar Styling  */
+.subcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+    &__logo{
+      width: fit-content;
+      height: 100%;
+    }
+    &__title{
+      width: fit-content;
+      padding: 20px;
+    }
+}
+
+ 
+
+nav {
+    height:90px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    .container__nav--items {
+      width: fit-content;
+      height: 100%;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      li{
+        align-self: center;
+      }
+      
+      li a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        padding: 0px 60px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+      }
+    }
+  }

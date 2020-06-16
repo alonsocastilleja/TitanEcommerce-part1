@@ -1,0 +1,183 @@
+$maincolor: #2f2fa2;
+$secondarycolor: #fafafa;
+$hover_color: rgb(223, 243, 247);
+$font-color: black;
+$font-h1: 27px;
+$font-h2: 20px;
+$font-h3: 13px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+section.hero__image--products{
+ background: url("..Images/products_hero.jpg"); 
+ background-attachment: fixed;
+  background-size: cover;
+  height: 1000px;
+  
+}
+
+
+
+/* Product Section Styling */
+
+.doorlocks__background {
+  background: url("../Images/Locks/doorlockbg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    &--caption{
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 50px;
+      height: 300px;
+      width: 600px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+}
+.cameras__background {
+  background: url("../Images/Cameras/cameras__bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    &--caption{
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 50px;
+      height: 300px;
+      width: 600px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+}
+.thermos__background {
+  background: url("../Images/Thermostats/thermos__bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    &--caption {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 50px;
+      height: 300px;
+      width: 600px;
+      text-align: center;
+      margin-bottom: 50px;
+  }
+}
+.sensors__background {
+  background: url("../Images/Sensors/sensors__bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    &--caption {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 50px;
+      height: 300px;
+      width: 600px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+}
+
+.section__heading {
+  display: block;
+  height: 20%;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-decoration: underline;
+  color: black;
+  font-family: "Roboto Mono", monospace;
+}
+.section__description{
+  display: block;
+  height: 80%;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer__locks,
+.mainContainer__cameras,
+.mainContainer__thermos,
+.mainContainer__sensors {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  min-height: 80vh;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  padding: 20px;
+  background-color: rgb(35, 35, 35);
+}
+
+.maincontainer__locks,
+.maincontainer__cameras,
+.maincontainer__thermos,
+.maincontainer__sensors {
+  box-shadow: grey;
+  height: 650px;
+  width: 100%;
+  justify-content: center;
+
+  &--link {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  &--sub:hover {
+    background-color: #ecf0f1;
+  }
+  &--sub {
+    grid-template-rows: 30px 400px 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+    background-color: white;
+  }
+}
+.gridHeader {
+  font-size: 21px;
+  text-align: center;
+}
+.gridHeader_pricing {
+  font-size: 19px;
+  font-weight: bold;
+}
+.linkStyling {
+  text-decoration: none;
+}
+.descriptionStyling {
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.descriptionStyling_format {
+  align-self: start;
+}
